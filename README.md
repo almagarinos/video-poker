@@ -12,6 +12,8 @@ Esta es una versión estable del proyecto, desarrollada únicamente con tecnolog
 
 La aplicación no necesita procesos de compilación, ni instalación de dependencias, ni conexión a Internet. La única excepción es el enlace al tutorial en vídeo, pero no impide jugar.
 
+En el proyecto están adjuntas las imágenes de los naipes y sus reversos en gris y rojo, sin embargo, no se muestran por ahora. De momento se ve el índice y el palo con tipografía.
+
 Actualmente se puede jugar perfectamente entendiendo cómo se forman las jugadas del póker (manos), pero todavía no se han implementado estas funcionalidades:
 - Posibilidad de realizar apuestas.
 - Posibilidad de jugar con comodines.
@@ -57,8 +59,15 @@ video-poker/
 │   ├── icon/
 │   │   └── ...                 # Archivos de favicon, generados en https://favicon.io/
 │   │
+│   ├── img/
+│   │   └── ...                 # Imágenes de los naipes de la baraja francesa con reversos
+│   │
 │   └── js/
 │       └── app.js              # Lógica principal del juego, incluye comentarios
+│
+├── LICENSE.md                  # Archivo de licencia MIT en formato Markdown
+│
+├── README.md                   # Archivo "Léeme" del proyecto en Markdown
 │
 └── index.html                  # Punto de entrada de la aplicación
 ```
